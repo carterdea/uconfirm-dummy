@@ -1,0 +1,79 @@
+
+body {
+  @extend .pb-5;
+}
+
+.label-strong {
+  font-weight: $font-weight-500;
+}
+
+.font-weight-400 {
+  font-weight: $font-weight-400;
+}
+
+.font-weight-500 {
+  font-weight: $font-weight-500;
+}
+
+.font-weight-600 {
+  font-weight: $font-weight-600;
+}
+
+.font-weight-700 {
+  font-weight: $font-weight-700;
+}
+
+.font-size-sm {
+  font-size: $font-size-sm;
+}
+
+.btn-primary, .btn-secondary {
+  border: 1px solid $gray-500;
+  border-radius: 27px;
+}
+
+.btn-primary {
+  background-color: $gray-500 !important;
+  color: $white !important;
+}
+
+.btn-secondary {
+  background-color: $white !important;
+  color: $gray-500 !important;
+}
+
+.btn-md-block,
+.btn-lg-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-lg {
+  min-width: 8rem;
+}
+
+@include respond-above(md) {
+  .btn-md-block {
+    display: inherit;
+    width: inherit;
+  }
+}
+
+@include respond-above(lg) {
+  .btn-lg-block {
+    display: inherit;
+    width: inherit;
+  }
+}
+
+.col-all-auto {
+  flex: 0 0 auto;
+  width: auto;
+  max-width: 100%;
+  @extend .col;
+}
+
+.generic-invalid-feedback {
+  display: unset;
+  @extend .invalid-feedback;
+}

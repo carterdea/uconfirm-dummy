@@ -1,0 +1,14 @@
+
+/**
+ * This file is meant to be imported by various React/Webpack component
+ * files.  It is not meant as a top level module to be imported.
+ * It's main purpose to bring in reusable mixins and variables
+ * to be used by component-styles.
+ */
+
+@import "~bootstrap/scss/_functions.scss";
+@import "./responsive.scss";
+@import "./custom.scss";
+@import "~bootstrap/scss/_mixins.scss";
+@import "~bootstrap/scss/_utilities.scss";
+@import "./appvars.scss";

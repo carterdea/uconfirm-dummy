@@ -1,0 +1,100 @@
+
+
+/**
+ * For now, we are directly embedding all these fonts into the
+ * outputted CSS (in production).  This adds about 2MB to the total
+ * CSS filesize.
+ *
+ * If we would rather have the browser download separate font files,
+ * that can be done, but changing the `url()` statements in this file
+ * to urls such as `/assets/fonts/blah` instead of local file paths.
+ *
+ * For now, despite the larger filesize of the output CSS, we should
+ * just bundle the fonts directly into the CSS.  If we want to benchmark this
+ * and modify it at a later time, we can revisit that.
+ */
+
+
+@font-face {
+  font-family: "Graphik Web";
+  src: url("../fonts/graphik/Graphik-Bold-Web.eot");
+  src:
+    url("../fonts/graphik/Graphik-Bold-Web.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/graphik/Graphik-Bold-Web.woff2") format("woff2"),
+    url("../fonts/graphik/Graphik-Bold-Web.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Graphik Web";
+  src: url("../fonts/graphik/Graphik-SemiboldItalic-Web.eot");
+  src:
+    url("../fonts/graphik/Graphik-SemiboldItalic-Web.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/graphik/Graphik-SemiboldItalic-Web.woff2")
+      format("woff2"),
+    url("../fonts/graphik/Graphik-SemiboldItalic-Web.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Graphik Web";
+  src: url("../fonts/graphik/Graphik-Semibold-Web.eot");
+  src:
+    url("../fonts/graphik/Graphik-Semibold-Web.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/graphik/Graphik-Semibold-Web.woff2") format("woff2"),
+    url("../fonts/graphik/Graphik-Semibold-Web.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Graphik Web";
+  src: url("../fonts/graphik/Graphik-Medium-Web.eot");
+  src:
+    url("../fonts/graphik/Graphik-Medium-Web.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/graphik/Graphik-Medium-Web.woff2") format("woff2"),
+    url("../fonts/graphik/Graphik-Medium-Web.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Graphik Web";
+  src: url("../fonts/graphik/Graphik-RegularItalic-Web.eot");
+  src:
+    url("../fonts/graphik/Graphik-RegularItalic-Web.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/graphik/Graphik-RegularItalic-Web.woff2")
+      format("woff2"),
+    url("../fonts/graphik/Graphik-RegularItalic-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "Graphik Web";
+  src: url("../fonts/graphik/Graphik-Regular-Web.eot");
+  src:
+    url("../fonts/graphik/Graphik-Regular-Web.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/graphik/Graphik-Regular-Web.woff2") format("woff2"),
+    url("../fonts/graphik/Graphik-Regular-Web.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+
+
+

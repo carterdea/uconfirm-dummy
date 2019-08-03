@@ -1,0 +1,11 @@
+{
+  "name": "uconfirm-dummy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:carterdea/uconfirm-dummy.git",
+  "author": "Carter De Angelis <me@carterdea.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
