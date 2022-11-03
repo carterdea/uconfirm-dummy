@@ -6,6 +6,6 @@
   "author": "Carter De Angelis <me@carterdea.com>",
   "license": "MIT",
   "dependencies": {
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^4.6.2"
   }
 }
